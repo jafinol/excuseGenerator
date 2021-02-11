@@ -14,9 +14,6 @@ function myFunction() {
         var rand = length(who);
         var rand1 = length(what);
         var rand2 = length(when);
-        //var rand = Math.floor(Math.random() * who.length);
-        //var rand1 = Math.floor(Math.random() * what.length);
-        //var rand2 = Math.floor(Math.random() * when.length);
        
         document.getElementById('quote1').innerHTML = "<h3>" + who[rand]+ "</h3>" ;
         document.getElementById('quote2').innerHTML = action[rand];
