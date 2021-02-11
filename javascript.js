@@ -1,6 +1,6 @@
 function length(arr) {
 
-  return  Math.floor(Math.random() * arr.length);;   // The function returns the product of p1 and p2
+  return  Math.floor(Math.random() * arr.length);
 }
 
 function myFunction() {
