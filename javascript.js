@@ -15,11 +15,11 @@ function myFunction() {
         var rand1 = length(what);
         var rand2 = length(when);
        
-        document.getElementById('quote1').innerHTML = "<h3>" + who[rand]+ "</h3>" ;
-        document.getElementById('quote2').innerHTML = action[rand];
-        document.getElementById('quote3').innerHTML = what[rand1];
-        document.getElementById('quote4').innerHTML = when[rand2];
-        document.getElementById("myImage").src =  picture[rand];
+        document.querySelector('#quote1').innerHTML = "<h3>" + who[rand]+ "</h3>" ;
+        document.querySelector('#quote2').innerHTML = action[rand];
+        document.querySelector('#quote3').innerHTML = what[rand1];
+        document.querySelector('#quote4').innerHTML = when[rand2];
+        document.querySelector("#myImage").src =  picture[rand];
         
 
 }
