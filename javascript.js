@@ -16,9 +16,9 @@ function myFunction() {
         var rand2 = length(when);
        
         document.querySelector('#quote1').innerHTML = "<h3>" + who[rand]+ "</h3>" ;
-        document.querySelector('#quote2').innerHTML = action[rand];
-        document.querySelector('#quote3').innerHTML = what[rand1];
-        document.querySelector('#quote4').innerHTML = when[rand2];
+        document.querySelector('#quote2').innerHTML = "<h3>" +action[rand]+ "</h3>" ;
+        document.querySelector('#quote3').innerHTML = "<h4>" +what[rand1]+ "</h4>" ;
+        document.querySelector('#quote4').innerHTML = "<h4>" +when[rand2]+ "</h4>" ;
         document.querySelector("#myImage").src =  picture[rand];
         
 
